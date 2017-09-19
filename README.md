@@ -2,6 +2,29 @@
 
 React Native simple platform agnostic API to open up device settings menus
 
+### This is a fork of [rjblopes](https://github.com/rjblopes/react-native-device-settings) package and fixes this error
+
+```
+:react-native-device-settings:compileReleaseJavaWithJavac
+:react-native-device-settings:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+/node_modules/react-native-device-settings/android/src/main/java/com/rjblopes/opensettings/OpenSettingsPackage.java:15: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+1 error
+:react-native-device-settings:compileReleaseJavaWithJavac FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':react-native-device-settings:compileReleaseJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+```
+
 ## Install
 ```
 npm install react-native-device-settings --save
