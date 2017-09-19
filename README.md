@@ -27,14 +27,19 @@ BUILD FAILED
 
 ## Install
 ```
-npm install react-native-device-settings --save
+npm install https://github.com/adriaanvanrossum/react-native-device-settings --save
+```
+or
+
+```
+yarn add https://github.com/adriaanvanrossum/react-native-device-settings
 ```
 
-### Automatic Install
+### Automatic linking
 ```
 react-native link react-native-device-settings
 ```
-### Manual Install
+### Manual linking
 
 ### `iOS`
 
